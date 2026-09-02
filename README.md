@@ -6,9 +6,13 @@ This project demonstrates an end-to-end **data engineering pipeline** built usin
 
 The pipeline transforms raw, nested JSON data into structured, analytics-ready datasets and ultimately into a **Star Schema** consisting of fact and dimension tables.
 
+API - https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson
+Host: https://earthquake.usgs.gov
+Base Path: /earthquakes/feed/v1.0/
+Endpoint: summary/all_day.geojson
+
 ### Architecture
 
-```text
                     REST API
                        │
                        ▼
